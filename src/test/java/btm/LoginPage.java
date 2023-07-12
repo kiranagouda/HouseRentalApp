@@ -14,6 +14,7 @@ public class LoginPage {
 	      WebDriverManager.chromedriver().setup();
 	      WebDriver driver=new ChromeDriver();
 	      driver.get("https://www.amazon.com");
+		//thank you
 		}
 
 	}
