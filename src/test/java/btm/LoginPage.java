@@ -10,11 +10,13 @@ public class LoginPage {
 		@Test
 	public void login() {
 			//welcome
+			//opens chrome browser
 		//public static void main(String[] args) {
 	      WebDriverManager.chromedriver().setup();
 	      WebDriver driver=new ChromeDriver();
 	      driver.get("https://www.amazon.com");
 		//thank you
+	      
 		}
 
 	}
